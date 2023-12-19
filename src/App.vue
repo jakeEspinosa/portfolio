@@ -5,6 +5,7 @@ See LICENSE.txt for details.
 
 <script setup lang="ts">
   import FooterComponent from "@/components/main-view/footer/FooterComponent.vue";
+  import constants from "@/utilities/constants";
 </script>
 
 <template>
@@ -15,6 +16,6 @@ See LICENSE.txt for details.
     <div>Main</div>
   </div>
   <div class="dvh-10">
-    <FooterComponent />
+    <FooterComponent :copyright-string="constants.copyrightString" />
   </div>
 </template>
