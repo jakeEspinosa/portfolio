@@ -1,7 +1,7 @@
 <!-- 
 Copyright (C) 2023 Jake Espinosa Under the MIT License
 See LICENSE.txt for details.
- -->
+-->
 
 <template>
   <div class="container-fluid d-flex justify-content-center gap-3">
