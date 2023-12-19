@@ -3,6 +3,10 @@ Copyright (C) 2023 Jake Espinosa Under the MIT License
 See LICENSE.txt for details.
  -->
 
+<script setup lang="ts">
+  import FooterComponent from "@/components/main-view/footer/FooterComponent.vue";
+</script>
+
 <template>
   <div class="dvh-15">
     <div>Header</div>
@@ -11,6 +15,6 @@ See LICENSE.txt for details.
     <div>Main</div>
   </div>
   <div class="dvh-10">
-    <div>Footer</div>
+    <FooterComponent />
   </div>
 </template>
