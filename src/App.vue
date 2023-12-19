@@ -9,13 +9,13 @@ See LICENSE.txt for details.
 </script>
 
 <template>
-  <div class="dvh-15">
+  <header class="dvh-15">
     <div>Header</div>
-  </div>
-  <div class="min-dvh-75">
+  </header>
+  <main class="min-dvh-75">
     <div>Main</div>
-  </div>
-  <div class="dvh-10">
+  </main>
+  <footer class="dvh-10">
     <FooterComponent :copyright-string="constants.copyrightString" />
-  </div>
+  </footer>
 </template>
