@@ -15,11 +15,11 @@ See LICENSE.txt for details.
 
 <template>
   <div
-    class="container-fluid bg-body-primary d-flex flex-column align-items-center justify-content-center h-100"
+    class="container-fluid d-flex flex-column align-items-center justify-content-center h-100 main-bg"
   >
     <IconBar />
     <p
-      class="container-fluid d-flex justify-content-center align-items-center text-center"
+      class="container-fluid d-flex justify-content-center align-items-center text-center main-text"
     >
       &copy; {{ props.copyrightString }}
     </p>

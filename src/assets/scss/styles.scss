@@ -1,3 +1,6 @@
+// Copyright (C) 2023 Jake Espinosa Under the MIT License
+// See LICENSE.txt for details.
+
 @import "bootstrap/scss/bootstrap";
 
 .dvh-15 {
@@ -10,4 +13,19 @@
 
 .min-dvh-75 {
   min-height: 75dvh;
+}
+
+:root {
+  --main-bg-color: #15202b;
+  --secondary-bg-color: #192734;
+  --main-text-color: #ffffff;
+  --secondary-text-color: #8899a6;
+}
+
+.main-bg {
+  background-color: var(--main-bg-color);
+}
+
+.main-text {
+  color: var(--main-text-color);
 }
