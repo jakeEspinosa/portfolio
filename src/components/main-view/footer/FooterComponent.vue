@@ -1,7 +1,7 @@
 <!-- 
 Copyright (C) 2023 Jake Espinosa Under the MIT License
 See LICENSE.txt for details.
- -->
+-->
 
 <script setup lang="ts">
   import IconBar from "@/components/main-view/footer/IconBar.vue";
