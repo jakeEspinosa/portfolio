@@ -1,3 +1,8 @@
+<!-- 
+Copyright (C) 2023 Jake Espinosa Under the MIT License
+See LICENSE.txt for details.
+ -->
+
 <template>
   <div class="dvh-15">
     <div>Header</div>
