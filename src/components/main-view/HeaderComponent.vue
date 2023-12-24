@@ -6,7 +6,9 @@ See LICENSE.txt for details.
 <template>
   <nav class="navbar navbar-expand-lg main-bg dvh-15">
     <div class="container-fluid w-80vw">
-      <a class="navbar-brand main-text fs-2" href="#">Jake E.</a>
+      <router-link to="/" class="navbar-brand main-text fs-2" href="#"
+        >Jake E.</router-link
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -42,8 +44,11 @@ See LICENSE.txt for details.
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link secondary-text fs-5" aria-current="page" href="#"
-              >About</a
+            <router-link
+              to="/about"
+              class="nav-link secondary-text fs-5"
+              aria-current="page"
+              >About</router-link
             >
           </li>
           <li class="nav-item">
