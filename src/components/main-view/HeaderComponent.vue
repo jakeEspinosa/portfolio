@@ -4,7 +4,7 @@ See LICENSE.txt for details.
 -->
 
 <template>
-  <nav class="navbar navbar-expand-lg main-bg dvh-15">
+  <nav class="navbar navbar-expand-lg main-bg dvh-15 px-5">
     <div class="container-fluid">
       <a class="navbar-brand main-text" href="#">Jake E.</a>
       <button
@@ -19,7 +19,9 @@ See LICENSE.txt for details.
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid justify-content-end"
+        >
           <li class="nav-item">
             <a class="nav-link secondary-text fs-5" aria-current="page" href="#"
               >Blog</a
