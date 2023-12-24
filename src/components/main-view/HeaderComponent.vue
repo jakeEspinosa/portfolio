@@ -21,14 +21,18 @@ See LICENSE.txt for details.
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            <a class="nav-link secondary-text fs-5" aria-current="page" href="#"
+              >Blog</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Resume</a>
+            <a class="nav-link secondary-text fs-5" aria-current="page" href="#"
+              >Resume</a
+            >
           </li>
           <li class="nav-item">
             <a
-              class="nav-link active"
+              class="nav-link secondary-text fs-5"
               aria-current="page"
               href="https://github.com/jakeEspinosa"
               target="_blank"
@@ -36,10 +40,14 @@ See LICENSE.txt for details.
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link secondary-text fs-5" aria-current="page" href="#"
+              >About</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link secondary-text fs-5" aria-current="page" href="#"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
