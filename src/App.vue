@@ -6,12 +6,13 @@ See LICENSE.txt for details.
 <script setup lang="ts">
   import FooterComponent from "@/components/main-view/footer/FooterComponent.vue";
   import MainContent from "@/components/main-view/MainContent.vue";
+  import HeaderComponent from "./components/main-view/HeaderComponent.vue";
   import constants from "@/utilities/constants";
 </script>
 
 <template>
   <header class="dvh-15">
-    <div>Header</div>
+    <HeaderComponent />
   </header>
   <main>
     <MainContent />
