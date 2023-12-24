@@ -27,7 +27,13 @@ See LICENSE.txt for details.
             <a class="nav-link active" aria-current="page" href="#">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">GitHub</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://github.com/jakeEspinosa"
+              target="_blank"
+              >GitHub</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">About</a>
