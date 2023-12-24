@@ -4,8 +4,8 @@ See LICENSE.txt for details.
 -->
 
 <template>
-  <nav class="navbar navbar-expand-lg main-bg dvh-15 px-5">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg main-bg dvh-15">
+    <div class="container-fluid w-80vw">
       <a class="navbar-brand main-text fs-2" href="#">Jake E.</a>
       <button
         class="navbar-toggler"
