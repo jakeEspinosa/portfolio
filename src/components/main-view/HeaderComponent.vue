@@ -6,7 +6,7 @@ See LICENSE.txt for details.
 <template>
   <nav class="navbar navbar-expand-lg main-bg dvh-15 px-5">
     <div class="container-fluid">
-      <a class="navbar-brand main-text" href="#">Jake E.</a>
+      <a class="navbar-brand main-text fs-2" href="#">Jake E.</a>
       <button
         class="navbar-toggler"
         type="button"
