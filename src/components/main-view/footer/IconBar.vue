@@ -4,7 +4,7 @@ See LICENSE.txt for details.
 -->
 
 <template>
-  <div class="container-fluid d-flex justify-content-center gap-3 w-80vw">
+  <div class="container-fluid d-flex justify-content-center gap-3 w-80vw pt-3">
     <a href="https://www.linkedin.com/in/jake-espinosa/" target="_blank"
       ><i class="bi bi-linkedin link-opacity-50-hover"
     /></a>
