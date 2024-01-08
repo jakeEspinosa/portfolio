@@ -36,7 +36,7 @@ See LICENSE.txt for details.
           </li>
           <li class="nav-item">
             <a
-              class="nav-link main-text fs-5"
+              class="nav-link main-text fs-5 router-link"
               aria-current="page"
               href="https://github.com/jakeEspinosa"
               target="_blank"
