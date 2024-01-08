@@ -52,8 +52,11 @@ See LICENSE.txt for details.
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link main-text fs-5" aria-current="page" href="#"
-              >Contact</a
+            <router-link
+              to="/contact"
+              class="nav-link main-text fs-5 router-link"
+              aria-current="page"
+              >Contact</router-link
             >
           </li>
         </ul>
