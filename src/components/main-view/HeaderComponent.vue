@@ -30,11 +30,6 @@ See LICENSE.txt for details.
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link main-text fs-5" aria-current="page" href="#"
-              >Resume</a
-            >
-          </li>
-          <li class="nav-item">
             <a
               class="nav-link main-text fs-5 router-link"
               aria-current="page"
