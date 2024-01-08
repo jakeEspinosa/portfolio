@@ -25,8 +25,11 @@ See LICENSE.txt for details.
           class="navbar-nav me-auto mb-2 mb-lg-0 container-fluid justify-content-end"
         >
           <li class="nav-item">
-            <a class="nav-link main-text fs-5" aria-current="page" href="#"
-              >Blog</a
+            <router-link
+              to="/blog"
+              class="nav-link main-text fs-5 router-link"
+              aria-current="page"
+              >Blog</router-link
             >
           </li>
           <li class="nav-item">
