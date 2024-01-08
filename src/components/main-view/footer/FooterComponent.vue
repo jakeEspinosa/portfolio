@@ -8,7 +8,7 @@ See LICENSE.txt for details.
   const props = defineProps({
     copyrightString: {
       type: String,
-      default: "2023 All Rights Reserved.",
+      default: "2024 All Rights Reserved.",
     },
   });
 </script>
