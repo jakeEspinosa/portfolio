@@ -63,7 +63,8 @@ See LICENSE.txt for details.
 </template>
 
 <style scoped>
-  .router-link:hover, .router-link:focus {
+  .router-link:hover,
+  .router-link:focus {
     color: var(--secondary-text-color);
   }
 
@@ -73,5 +74,4 @@ See LICENSE.txt for details.
   .brand:focus {
     color: var(--main-text-color);
   }
-
 </style>
