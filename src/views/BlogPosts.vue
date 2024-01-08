@@ -13,6 +13,12 @@ See LICENSE.txt for details.
 <template>
   <h2 class="main-text pt-3">Blog Articles</h2>
   <div v-if="!isLoaded">
+    <hr class="main-text" />
     <BlogPostsSkeleton />
+    <hr class="main-text" />
+    <BlogPostsSkeleton />
+    <hr class="main-text" />
+    <BlogPostsSkeleton />
+    <hr class="main-text" />
   </div>
 </template>
