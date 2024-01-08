@@ -1,3 +1,8 @@
+/*
+Copyright (C) 2024 Jake Espinosa Under the MIT License
+See LICENSE.txt for details.
+*/
+
 import { createApp } from "vue";
 import router from "@/router";
 import App from "@/App.vue";

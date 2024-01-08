@@ -1,5 +1,5 @@
 <!-- 
-Copyright (C) 2023 Jake Espinosa Under the MIT License
+Copyright (C) 2024 Jake Espinosa Under the MIT License
 See LICENSE.txt for details.
 -->
 
