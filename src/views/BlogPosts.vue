@@ -8,6 +8,7 @@ See LICENSE.txt for details.
   import BlogPostsSkeleton from "@/components/blog/BlogPostsSkeleton.vue";
   import BlogPostCard from "@/components/blog/BlogPostCard.vue";
   import api from "@/utilities/api";
+  import constants from "@/utilities/constants";
 
   const isLoaded = ref(false);
   const posts = ref();
@@ -18,9 +19,7 @@ See LICENSE.txt for details.
     isLoaded.value = true;
   };
 
-  getPosts(
-    "https://y19p39beeh.execute-api.us-west-1.amazonaws.com/getAllPosts"
-  );
+  getPosts(constants.blogEndpointUrl);
 </script>
 
 <template>
