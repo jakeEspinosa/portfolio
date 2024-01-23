@@ -6,8 +6,20 @@ See LICENSE.txt for details.
 <script setup lang="ts">
   import { ref } from "vue";
   import BlogPostsSkeleton from "@/components/blog/BlogPostsSkeleton.vue";
+  import api from "@/utilities/api";
 
   const isLoaded = ref(false);
+  const posts = ref();
+
+  const getPosts = async (url: string) => {
+    const data = await api.get(url);
+    posts.value = data;
+    isLoaded.value = true;
+  };
+
+  getPosts(
+    "https://y19p39beeh.execute-api.us-west-1.amazonaws.com/getAllPosts"
+  );
 </script>
 
 <template>
