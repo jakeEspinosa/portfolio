@@ -6,6 +6,7 @@ See LICENSE.txt for details.
 <script setup lang="ts">
   import { ref } from "vue";
   import BlogPostsSkeleton from "@/components/blog/BlogPostsSkeleton.vue";
+  import BlogPostCard from "@/components/blog/BlogPostCard.vue";
   import api from "@/utilities/api";
 
   const isLoaded = ref(false);
@@ -32,5 +33,9 @@ See LICENSE.txt for details.
     <hr class="main-text" />
     <BlogPostsSkeleton />
     <hr class="main-text" />
+  </div>
+  <div v-else>
+    <hr class="main-text" />
+    <BlogPostCard :title="posts[0].title" :id="posts[0].id" />
   </div>
 </template>
