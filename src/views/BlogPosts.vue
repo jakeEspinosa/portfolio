@@ -24,8 +24,8 @@ See LICENSE.txt for details.
 
 <template>
   <h2 class="main-text pt-3">Blog Articles</h2>
+  <hr class="main-text" />
   <div v-if="!isLoaded">
-    <hr class="main-text" />
     <BlogPostsSkeleton />
     <hr class="main-text" />
     <BlogPostsSkeleton />
@@ -34,7 +34,9 @@ See LICENSE.txt for details.
     <hr class="main-text" />
   </div>
   <div v-else>
-    <hr class="main-text" />
-    <BlogPostCard :title="posts[0].title" :id="posts[0].id" />
+    <div v-for="(post, index) in posts" :key="index">
+      <BlogPostCard :title="post.title" :id="post.id" />
+      <hr class="main-text" />
+    </div>
   </div>
 </template>

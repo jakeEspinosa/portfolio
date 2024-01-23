@@ -15,7 +15,9 @@ See LICENSE.txt for details.
 </script>
 
 <template>
-  <h3 class="main-text fs-2 pb-2">
-    {{ props.title }}
-  </h3>
+  <div class="container-fluid d-flex justify-content-center">
+    <h3 class="main-text fs-2 pb-2">
+      {{ props.title }}
+    </h3>
+  </div>
 </template>
