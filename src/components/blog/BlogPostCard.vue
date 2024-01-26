@@ -24,9 +24,9 @@ See LICENSE.txt for details.
 <template>
   <div class="container-fluid d-flex justify-content-center">
     <button type="button" class="btn" @click="clickHandler">
-      <h3 class="main-text fs-2 pb-2">
+      <h2 class="main-text fs-2 pb-2">
         {{ props.title }}
-      </h3>
+      </h2>
     </button>
   </div>
 </template>
