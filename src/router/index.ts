@@ -8,6 +8,7 @@ import LandingPage from "@/views/LandingPage.vue";
 import AboutPage from "@/views/AboutPage.vue";
 import ContactPage from "@/views/ContactPage.vue";
 import BlogPosts from "@/views/BlogPosts.vue";
+import ArticlePage from "@/views/ArticlePage.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -16,6 +17,7 @@ const router = createRouter({
     { path: "/about", component: AboutPage },
     { path: "/contact", component: ContactPage },
     { path: "/blog", component: BlogPosts },
+    { path: "/blog/:id", component: ArticlePage },
   ],
 });
 
