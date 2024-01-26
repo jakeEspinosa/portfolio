@@ -30,3 +30,10 @@ See LICENSE.txt for details.
     </button>
   </div>
 </template>
+
+<style scoped>
+  .btn:hover,
+  .btn:focus {
+    filter: brightness(0.6);
+  }
+</style>
