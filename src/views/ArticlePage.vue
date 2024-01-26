@@ -25,6 +25,6 @@
 </script>
 
 <template>
-  <div v-html="post.title"></div>
-  <div v-html="content"></div>
+  <h2 v-html="post.title" class="main-text pt-3"></h2>
+  <div v-html="content" class="main-text"></div>
 </template>
