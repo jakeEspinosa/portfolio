@@ -9,7 +9,7 @@ See LICENSE.txt for details.
       type: String,
     },
     id: {
-      type: String,
+      type: Number,
     },
   });
 </script>
