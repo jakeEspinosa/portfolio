@@ -3,6 +3,18 @@
 
 @import "bootstrap/scss/bootstrap";
 
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
 .dvh-15 {
   height: 15dvh;
 }
