@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { useRoute } from "vue-router";
   import { ref, watch } from "vue";
+  import ArticleSkeleton from "@/components/blog/ArticleSkeleton.vue";
   import markdownit from "markdown-it";
   import api from "@/utilities/api";
   import constants from "@/utilities/constants";
@@ -26,7 +27,10 @@
 
 <template>
   <div class="container-fluid d-flex flex-column align-items-center w-80ch">
-    <h2 v-html="post.title" class="main-text pt-3"></h2>
-    <div v-html="content" class="main-text"></div>
+    <ArticleSkeleton v-if="isLoaded === false" />
+    <div v-else>
+      <h2 v-html="post.title" class="main-text pt-3"></h2>
+      <div v-html="content" class="main-text"></div>
+    </div>
   </div>
 </template>
