@@ -25,6 +25,8 @@
 </script>
 
 <template>
-  <h2 v-html="post.title" class="main-text pt-3"></h2>
-  <div v-html="content" class="main-text"></div>
+  <div class="container-fluid d-flex flex-column align-items-center">
+    <h2 v-html="post.title" class="main-text pt-3"></h2>
+    <div v-html="content" class="main-text w-80ch"></div>
+  </div>
 </template>
