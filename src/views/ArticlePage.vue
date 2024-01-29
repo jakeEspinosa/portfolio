@@ -1,3 +1,8 @@
+<!--
+Copyright (C) 2024 Jake Espinosa Under the MIT License
+See LICENSE.txt for details.
+-->
+
 <script setup lang="ts">
   import { useRoute } from "vue-router";
   import { ref, watch } from "vue";
