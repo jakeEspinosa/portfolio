@@ -24,19 +24,19 @@ See LICENSE.txt for details.
 
 <template>
   <h2 class="main-text pt-3">Blog Articles</h2>
-  <hr class="main-text" />
+  <hr class="main-text mb-0" />
   <div v-if="!isLoaded">
     <BlogPostsSkeleton />
-    <hr class="main-text" />
+    <hr class="main-text m-0" />
     <BlogPostsSkeleton />
-    <hr class="main-text" />
+    <hr class="main-text m-0" />
     <BlogPostsSkeleton />
-    <hr class="main-text" />
+    <hr class="main-text m-0" />
   </div>
   <div v-else>
     <div v-for="(post, index) in posts" :key="index">
       <BlogPostCard :title="post.title" :id="post.id" />
-      <hr class="main-text" />
+      <hr class="main-text m-0" />
     </div>
   </div>
 </template>
