@@ -75,4 +75,8 @@ See LICENSE.txt for details.
   .brand:focus {
     color: var(--main-text-color);
   }
+  .navbar-toggler-icon,
+  .navbar-toggler {
+    background-color: var(--secondary-text-color);
+  }
 </style>
