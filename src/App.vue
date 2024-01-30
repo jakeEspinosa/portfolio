@@ -11,13 +11,17 @@ See LICENSE.txt for details.
 </script>
 
 <template>
-  <header>
-    <HeaderComponent />
-  </header>
-  <main>
-    <MainContent />
-  </main>
-  <footer class="dvh-10">
-    <FooterComponent :copyright-string="constants.copyrightString" />
-  </footer>
+  <div class="d-flex flex-column dvh-100 secondary-bg justify-content-between">
+    <div>
+      <header>
+        <HeaderComponent />
+      </header>
+      <main>
+        <MainContent />
+      </main>
+    </div>
+    <footer class="dvh-10">
+      <FooterComponent :copyright-string="constants.copyrightString" />
+    </footer>
+  </div>
 </template>
