@@ -11,7 +11,9 @@ See LICENSE.txt for details.
 </script>
 
 <template>
-  <div class="d-flex flex-column dvh-100 secondary-bg justify-content-between">
+  <div
+    class="d-flex flex-column min-dvh-100 secondary-bg justify-content-between"
+  >
     <div>
       <header>
         <HeaderComponent />
@@ -20,7 +22,7 @@ See LICENSE.txt for details.
         <MainContent />
       </main>
     </div>
-    <footer class="dvh-10">
+    <footer class="dvh-15">
       <FooterComponent :copyright-string="constants.copyrightString" />
     </footer>
   </div>

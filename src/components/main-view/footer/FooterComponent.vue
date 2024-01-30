@@ -15,7 +15,7 @@ See LICENSE.txt for details.
 
 <template>
   <div
-    class="container-fluid d-flex flex-column align-items-center justify-content-center h-100 main-bg"
+    class="container-fluid d-flex flex-column align-items-center justify-content-center h-100 main-bg py-4"
   >
     <IconBar />
     <p
