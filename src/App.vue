@@ -11,7 +11,7 @@ See LICENSE.txt for details.
 </script>
 
 <template>
-  <header class="dvh-15">
+  <header>
     <HeaderComponent />
   </header>
   <main>

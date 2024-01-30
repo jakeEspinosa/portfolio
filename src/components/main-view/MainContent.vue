@@ -4,7 +4,7 @@ See LICENSE.txt for details.
 -->
 
 <template>
-  <div class="secondary-bg min-dvh-75 container-fluid">
+  <div class="secondary-bg container-fluid d-flex">
     <div
       class="w-80vw justify-items-center container-fluid justify-content-center"
     >

@@ -4,7 +4,7 @@ See LICENSE.txt for details.
 -->
 
 <template>
-  <nav class="navbar navbar-expand-lg main-bg fixed-top">
+  <nav class="navbar navbar-expand-lg main-bg sticky-top">
     <div class="container-fluid w-80vw">
       <router-link to="/" class="navbar-brand main-text fs-2 brand" href="#"
         >Jake E.</router-link
