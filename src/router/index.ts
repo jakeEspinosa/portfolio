@@ -9,6 +9,7 @@ import AboutPage from "@/views/AboutPage.vue";
 import ContactPage from "@/views/ContactPage.vue";
 import BlogPosts from "@/views/BlogPosts.vue";
 import ArticlePage from "@/views/ArticlePage.vue";
+import InvalidPage from "@/views/InvalidPage.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -18,6 +19,7 @@ const router = createRouter({
     { path: "/contact", component: ContactPage },
     { path: "/blog", component: BlogPosts },
     { path: "/blog/:id", component: ArticlePage },
+    { path: "/:notFound", component: InvalidPage },
   ],
 });
 
