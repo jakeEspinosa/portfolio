@@ -33,13 +33,13 @@ See LICENSE.txt for details.
 <template>
   <div class="container-fluid d-flex flex-column align-items-center w-80ch">
     <ArticleSkeleton v-if="isLoaded === false" />
-    <div v-else>
+    <article v-else>
       <h2 v-html="post.title" class="main-text pt-3"></h2>
       <div class="container-fluid d-flex justify-content-between">
         <p class="main-text fs-3">Author: {{ post.author }}</p>
         <p class="main-text fs-3">Published: {{ post.publish_date }}</p>
       </div>
       <div v-html="content" class="main-text"></div>
-    </div>
+    </article>
   </div>
 </template>
