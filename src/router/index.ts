@@ -28,6 +28,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
+  // @ts-ignore
   document.title = to.meta.title ? to.meta.title : "Jake E's Blog";
   next();
 });
