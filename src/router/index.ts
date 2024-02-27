@@ -14,13 +14,22 @@ import InvalidPage from "@/views/InvalidPage.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: "/", component: LandingPage },
-    { path: "/about", component: AboutPage },
-    { path: "/contact", component: ContactPage },
+    { path: "/", component: LandingPage, meta: { title: "Home" } },
+    { path: "/about", component: AboutPage, meta: { title: "About" } },
+    { path: "/contact", component: ContactPage, meta: { title: "Contact" } },
     { path: "/blog", component: BlogPosts },
     { path: "/blog/:id", component: ArticlePage },
-    { path: "/:notFound", component: InvalidPage },
+    {
+      path: "/:notFound",
+      component: InvalidPage,
+      meta: { title: "404 - Page not found" },
+    },
   ],
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title ? to.meta.title : "Jake E's Blog";
+  next();
 });
 
 export default router;
